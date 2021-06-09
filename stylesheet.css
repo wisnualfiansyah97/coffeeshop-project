@@ -1,0 +1,85 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-wrapper {
+    padding: 100px 100px 120px 120px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+
+.coffee p {
+	font-size:15px;
+	text-align:left;
+    opacity: 0.8;
+    margin-bottom: 5px;
+	margin-top: 3px;
+	margin-left:0px;
+}
+
+.coffee-wrapper {
+	float:left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    left: 0;
+    bottom: 0;
+}
+
+.coffee {
+    flex: auto;
+    width: 20%;
+    padding: 1px;
+    width: 40;
+    height: 40;
+	margin-left:1px;
+	margin-right:1px;
+    position: relative;
+}
+
+.coffee img {
+	border-radius: 5px;
+    opacity: 0.9;
+    width: 95%;
+    height: 95%;
+	margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
